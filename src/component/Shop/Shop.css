@@ -8,3 +8,12 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+.btn-review{
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+}
