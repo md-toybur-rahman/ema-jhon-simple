@@ -15,3 +15,10 @@
 .header a:hover{
     color: orange;
 }
+.text-white{
+    color: white;
+    margin: 0 20px;
+}
+.btn-logout{
+    margin-left: 20px;
+}
