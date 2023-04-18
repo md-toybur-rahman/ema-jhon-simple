@@ -19,8 +19,13 @@ const Header = () => {
                 <Link to="/">Shop</Link>
                 <Link to="/orders">Orders</Link>
                 <Link to="inventory">Inventory</Link>
-                <Link to="/login">Login</Link>
-                <Link to="/signup">Sign up</Link>
+                {
+                    !user ? <Link to="/login">Login</Link> : ''
+                }
+                {
+                    !user ? <Link to="/signup">Sign up</Link> : ''
+                }
+                
                 {
                 user && <span className='text-white'>Welcome {user.email} <button className='btn-logout' onClick={handleLogOut}>Sign out</button></span>
                 }
