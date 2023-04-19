@@ -44,7 +44,7 @@
  * 
  * 2. proceed
  * 
- * 3. hosting: firebase (up and down arrow) use space bar to select. and select 4 no option. => Hosting: Configure file for Firebase Hostion and (optionally) set up GitHub Action deploys.
+ * 3. hosting: firebase (up and down arrow) use space bar to select. and select 4 no option. => Hosting: Configure file for Firebase Hosting and (optionally) set up GitHub Action deploys.
  * 
  * 4. Most of the case we will select => Use an existing project
  * 
